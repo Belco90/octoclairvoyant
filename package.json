@@ -15,7 +15,8 @@
     "prettier-base": "prettier . --ignore-path .gitignore --ignore-unknown",
     "format": "yarn prettier-base --write",
     "format:check": "yarn prettier-base --check",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@chakra-ui/react": "1.6.4",
@@ -58,6 +59,7 @@
     "@typescript-eslint/eslint-plugin": "4.28.1",
     "@typescript-eslint/parser": "4.28.1",
     "babel-eslint": "10.1.0",
+    "cypress": "7.7.0",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "8.3.0",
