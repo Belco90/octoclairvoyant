@@ -113,7 +113,7 @@ importers:
         version: 2.0.14
       '@mswjs/http-middleware':
         specifier: 0.10.2
-        version: 0.10.2(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))
+        version: 0.10.2(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))
       '@octokit/openapi-types':
         specifier: 22.2.0
         version: 22.2.0
@@ -170,10 +170,10 @@ importers:
         version: 4.3.4(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
       '@vitest/coverage-v8':
         specifier: 2.1.8
-        version: 2.1.8(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))
+        version: 2.1.8(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))
       '@vitest/eslint-plugin':
         specifier: 1.1.24
-        version: 1.1.24(@typescript-eslint/utils@8.18.2(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))
+        version: 1.1.24(@typescript-eslint/utils@8.18.2(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))
       cors:
         specifier: 2.8.5
         version: 2.8.5
@@ -214,8 +214,8 @@ importers:
         specifier: 15.2.11
         version: 15.2.11
       msw:
-        specifier: 2.5.2
-        version: 2.5.2(@types/node@22.10.5)(typescript@5.7.2)
+        specifier: 2.7.0
+        version: 2.7.0(@types/node@22.10.5)(typescript@5.7.2)
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -239,7 +239,7 @@ importers:
         version: 5.1.4(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
       vitest:
         specifier: 2.1.8
-        version: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
 
 packages:
 
@@ -1556,8 +1556,8 @@ packages:
     peerDependencies:
       msw: '>=2.0.0'
 
-  '@mswjs/interceptors@0.36.10':
-    resolution: {integrity: sha512-GXrJgakgJW3DWKueebkvtYgGKkxA7s0u5B0P5syJM5rvQUnrpLPigvci8Hukl7yEM+sU06l+er2Fgvx/gmiRgg==}
+  '@mswjs/interceptors@0.37.5':
+    resolution: {integrity: sha512-AAwRb5vXFcY4L+FvZ7LZusDuZ0vEe0Zm8ohn1FM6/X7A3bj4mqmkAcGRWuvC2JwSygNwHAAmMnAI73vPHeqsHA==}
     engines: {node: '>=18'}
 
   '@next/env@15.1.4':
@@ -4841,8 +4841,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@2.5.2:
-    resolution: {integrity: sha512-eBsFgU30NYtrfC62XzS1rdAzFK+Br0zKU4ORqD9Qliq86362DWZyPiD6FLfMgy0Ktik83DPTXmqPMz2bqwmJdA==}
+  msw@2.7.0:
+    resolution: {integrity: sha512-BIodwZ19RWfCbYTxWTUfTXc+sg4OwjCAgxU1ZsgmggX/7S3LdUifsbUPJs61j0rWb19CZRGY5if77duhc0uXzw==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -7817,15 +7817,15 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mswjs/http-middleware@0.10.2(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))':
+  '@mswjs/http-middleware@0.10.2(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))':
     dependencies:
       express: 4.21.2
-      msw: 2.5.2(@types/node@22.10.5)(typescript@5.7.2)
+      msw: 2.7.0(@types/node@22.10.5)(typescript@5.7.2)
       strict-event-emitter: 0.5.1
     transitivePeerDependencies:
       - supports-color
 
-  '@mswjs/interceptors@0.36.10':
+  '@mswjs/interceptors@0.37.5':
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
       '@open-draft/logger': 0.3.0
@@ -8905,7 +8905,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))':
+  '@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -8919,17 +8919,17 @@ snapshots:
       std-env: 3.8.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+      vitest: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/eslint-plugin@1.1.24(@typescript-eslint/utils@8.18.2(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))':
+  '@vitest/eslint-plugin@1.1.24(@typescript-eslint/utils@8.18.2(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0))':
     dependencies:
       '@typescript-eslint/utils': 8.18.2(eslint@8.57.1)(typescript@5.7.2)
       eslint: 8.57.1
     optionalDependencies:
       typescript: 5.7.2
-      vitest: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+      vitest: 2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
 
   '@vitest/expect@2.1.8':
     dependencies:
@@ -8938,13 +8938,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.8(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))':
+  '@vitest/mocker@2.1.8(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))':
     dependencies:
       '@vitest/spy': 2.1.8
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      msw: 2.5.2(@types/node@22.10.5)(typescript@5.7.2)
+      msw: 2.7.0(@types/node@22.10.5)(typescript@5.7.2)
       vite: 5.4.11(@types/node@22.10.5)(terser@5.37.0)
 
   '@vitest/pretty-format@2.1.8':
@@ -11835,22 +11835,23 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2):
+  msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
       '@inquirer/confirm': 5.1.1(@types/node@22.10.5)
-      '@mswjs/interceptors': 0.36.10
+      '@mswjs/interceptors': 0.37.5
+      '@open-draft/deferred-promise': 2.2.0
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.5
-      chalk: 4.1.2
       graphql: 16.10.0
       headers-polyfill: 4.0.3
       is-node-process: 1.2.0
       outvariant: 1.4.3
       path-to-regexp: 6.3.0
+      picocolors: 1.1.1
       strict-event-emitter: 0.5.1
       type-fest: 4.30.1
       yargs: 17.7.2
@@ -13327,10 +13328,10 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.37.0
 
-  vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0):
+  vitest@2.1.8(@types/node@22.10.5)(jsdom@16.7.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0):
     dependencies:
       '@vitest/expect': 2.1.8
-      '@vitest/mocker': 2.1.8(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
+      '@vitest/mocker': 2.1.8(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
       '@vitest/pretty-format': 2.1.8
       '@vitest/runner': 2.1.8
       '@vitest/snapshot': 2.1.8
