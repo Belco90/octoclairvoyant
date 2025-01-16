@@ -112,8 +112,8 @@ importers:
         specifier: 2.0.14
         version: 2.0.14
       '@mswjs/http-middleware':
-        specifier: 0.10.2
-        version: 0.10.2(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))
+        specifier: 0.10.3
+        version: 0.10.3(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))
       '@octokit/openapi-types':
         specifier: 22.2.0
         version: 22.2.0
@@ -1550,8 +1550,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@mswjs/http-middleware@0.10.2':
-    resolution: {integrity: sha512-mgBUsindC0L30bzqFkHn9PgiKowhCndBV8m1SRY2ZFT1hHw1y+AEyVo2PFh5NfdSNrCruweZaM1A/Nx7raUFNA==}
+  '@mswjs/http-middleware@0.10.3':
+    resolution: {integrity: sha512-6CoX9IivDF7hggORdA4vX6uz+pkY1urGQMhmviHmYya/0b4EXwmhaXlGLQG3G29heqb3qdjp61V0+E2xRtyR5A==}
     engines: {node: '>=18'}
     peerDependencies:
       msw: '>=2.0.0'
@@ -7817,7 +7817,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mswjs/http-middleware@0.10.2(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))':
+  '@mswjs/http-middleware@0.10.3(msw@2.5.2(@types/node@22.10.5)(typescript@5.7.2))':
     dependencies:
       express: 4.21.2
       msw: 2.5.2(@types/node@22.10.5)(typescript@5.7.2)
