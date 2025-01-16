@@ -68,7 +68,7 @@
 		"@chakra-ui/styled-system": "2.9.2",
 		"@chakra-ui/theme-tools": "2.1.2",
 		"@chakra-ui/utils": "2.0.14",
-		"@mswjs/http-middleware": "0.10.2",
+		"@mswjs/http-middleware": "0.10.3",
 		"@octokit/openapi-types": "22.2.0",
 		"@tanstack/eslint-plugin-query": "5.62.1",
 		"@testing-library/cypress": "10.0.2",
